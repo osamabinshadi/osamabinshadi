@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOVER</title>
+</head>
+<body>
+    <style>
+        .hh{
+            margin: 0;
+            height: 40px;
+            background-color: #000;
+            }
+        .hh ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            line-height: 40px;
+        }
+        .hh ul li {
+            float: left;
+        }
+        .hh ul li a{
+            display: block;
+            padding: 0 30px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px; 
+            text-align: center;
+            font-family: century gothic;
+            font-weight: bold;
+        }
+        .hh a:hover{
+            background-color: #669900;
+        }
+        .hh ul li ul{
+            background-color: #000033;
+        }
+        .hh ul li ul li{
+            float: none;
+        }
+        .hh ul li ul{
+            display: none;
+        }
+        .hh ul li:hover ul{
+            display: block;
+        }
+    </style>
+    <div class="hh">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">File</a></li>
+            <li><a href="#">More</a>
+                <ul>
+                    <li><a href="#">More 1</a></li>
+                    <li><a href="#">More 2</a></li>
+                    <li><a href="#">More 3</a></li>
+                    <li><a href="#">More 4</a></li>
+                </ul>
+            </li>
+            <li><a href="#">News</a></li>
+        </ul>
+         
+    </div>
+</body>
+</html>
